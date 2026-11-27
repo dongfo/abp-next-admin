@@ -65,7 +65,7 @@ public class WorkdayCalendarService : IWorkdayCalendarService, ITransientDepende
             return false;
         }
 
-        return false;
+        return true;
     }
 
     public async virtual Task<bool> IsInWorkTimeAsync(DateTime time)
